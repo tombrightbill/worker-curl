@@ -1,4 +1,4 @@
-FROM appropriate/curl
+FROM alpine
 
 LABEL "com.github.actions.name"="Cloudflare Worker Deployement With cURL"
 LABEL "com.github.actions.description"="Deploy a worker to a cloudflare zone"
