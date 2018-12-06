@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 if [[ "$GITHUB_REF" != "refs/heads/master" ]]; then
 	echo "$GITHUB_REF was not master, exiting..."
