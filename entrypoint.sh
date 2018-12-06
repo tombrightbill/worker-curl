@@ -2,4 +2,6 @@
 
 set -e
 
-sleep "$*"
+sleep "15"
+
+echo 'something happening'
